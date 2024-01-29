@@ -1,0 +1,4 @@
+tuuma = float(input("monta tuumaa? "))
+while tuuma > 0:
+    print(f"{tuuma * 2.54} cm")
+    tuuma = float(input("Monta tuumaa? "))
